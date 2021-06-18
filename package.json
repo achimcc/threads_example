@@ -1,0 +1,21 @@
+{
+  "name": "minimal_starter",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode production",
+    "start": "webpack serve --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "html-webpack-plugin": "^5.3.1",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.4",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
