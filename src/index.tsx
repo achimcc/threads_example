@@ -1,6 +1,5 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+import App from "./App";
 
-const App = () => <h1>TodoLang Editor</h1>;
-
-ReactDOM.render(<App/>, document.getElementById('container'));
+ReactDOM.render(<App />, document.getElementById("container"));
